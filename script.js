@@ -17,5 +17,5 @@ function loadScreen(file) {
 }
 
 window.addEventListener("DOMContentLoaded", () => {
-  loadScreen("overview.html");
+  loadScreen("products.html");
 });
