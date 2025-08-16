@@ -1,1 +1,391 @@
-<h1>orders</h1>
+<header
+  class="flex justify-between px-3 py-3 rounded-full bg-white items-center"
+>
+  <div class="flex flex-col gap-1 ml-4">
+    <h2 class="text-xl font-semibold md:max-xl:text-sm md:max-xl:font-medium">
+      Order List
+    </h2>
+    <p class="text-sm text-gray-500 md:max-xl:text-xs">
+      Let's check your pharmacy today
+    </p>
+  </div>
+  <div class="flex items-center gap-4">
+    <input
+      type="text"
+      placeholder="Search.."
+      class="border border-gray-300 py-4 px-5 md:max-xl:py-4 md:max-xl:px-3 rounded-full text-sm text-left md:max-xl:text-xs placeholder:text-sm placeholder:text-gray-500"
+    />
+    <div class="p-4 border border-gray-300 w-fit rounded-full">
+        <i class="fa-solid fa-bell"></i>
+    </div>
+    <div
+      class="flex items-center gap-2 border border-gray-300 p-2 rounded-full h-full"
+    >
+      <div class="w-[40px] h-[40px] rounded-full overflow-hidden">
+        <img src="src/img/profile.jpg" class="object-top rounded-full" />
+      </div>
+      <div>
+        <h3 class="md:max-xl:text-xs">James Bond</h3>
+        <p class="text-sm text-gray-500 md:max-xl:text-xs">@jamesbond</p>
+      </div>
+      <span class="material-symbols-outlined"> keyboard_arrow_down </span>
+    </div>
+  </div>
+</header>
+<section
+  id="middle"
+  class="mt-4 grid grid-cols-4 grid-rows-1 gap-4 h-1/5 md:max-xl:grid-cols-2 md:max-xl:grid-rows-2 md:max-xl:gap-2"
+>
+  <div
+    class="flex flex-col gap-1 p-4 rounded-2xl bg-linear-to-r from-blue-950 to-blue-800 text-white"
+  >
+    <div class="flex justify-between items-center">
+      <p class="text-sm">Antibiotics</p>
+      <div class="p-2 rounded-full">OO</div>
+    </div>
+    <div class="flex items-center justify-between mt-4">
+      <h2 class="text-3xl font-semibold">121</h2>
+      <p class="bg-blue-50 text-blue-500 rounded-full px-4">+2%</p>
+    </div>
+    <div class="flex gap-2 items-center">
+      <p class="text-sm">Since last week</p>
+    </div>
+  </div>
+  <div class="flex flex-col gap-1 p-4 rounded-2xl bg-white">
+    <div class="flex justify-between items-center">
+      <p class="text-sm">Antibiotics</p>
+      <div class="p-2 rounded-full">OO</div>
+    </div>
+    <div class="flex items-center justify-between mt-4">
+      <h2 class="text-3xl font-semibold">121</h2>
+      <p class="bg-blue-50 text-blue-500 rounded-full px-4">+2%</p>
+    </div>
+    <div class="flex gap-2 items-center">
+      <p class="text-sm">Since last week</p>
+    </div>
+  </div>
+  <div class="flex flex-col gap-1 p-4 rounded-2xl bg-white">
+    <div class="flex justify-between items-center">
+      <p class="text-sm">Antibiotics</p>
+      <div class="p-2 rounded-full">OO</div>
+    </div>
+    <div class="flex items-center justify-between mt-4">
+      <h2 class="text-3xl font-semibold">121</h2>
+      <p class="bg-blue-50 text-blue-500 rounded-full px-4">+2%</p>
+    </div>
+    <div class="flex gap-2 items-center">
+      <p class="text-sm">Since last week</p>
+    </div>
+  </div>
+  <div class="flex flex-col gap-1 p-4 rounded-2xl bg-white">
+    <div class="flex justify-between items-center">
+      <p class="text-sm">Antibiotics</p>
+      <div class="p-2 rounded-full">OO</div>
+    </div>
+    <div class="flex items-center justify-between mt-4">
+      <h2 class="text-3xl font-semibold">121</h2>
+      <p class="bg-blue-50 text-blue-500 rounded-full px-4">+2%</p>
+    </div>
+    <div class="flex gap-2 items-center">
+      <p class="text-sm">Since last week</p>
+    </div>
+  </div>
+</section>
+<section
+  class="flex flex-col bg-white gap-2 p-4 h-4/5 rounded-2xl mt-4 md:max-xl:mt-2"
+>
+  <div class="flex justify-between items-center">
+    <input
+      type="text"
+      placeholder="Search.."
+      class="w-[25%] border border-gray-300 py-3 px-5 rounded-full text-sm text-left placeholder:text-sm placeholder:text-gray-500 md:max-xl:text-xs md:max-xl:p-3"
+    />
+    <div class="flex items-center gap-4 md:max-xl:gap-2">
+      <button
+        class="px-4 py-3 text-sm flex items-center gap-2 bg-blue-400 text-blue-950 rounded-full md:max-xl:text-xs md:max-xl:text-left md:max-xl:p-2"
+      >
+        <span class="md:max-xl:text-xs md:max-xl:hidden">ICON</span>Add New
+        Products
+      </button>
+      <button
+        class="px-4 py-3 text-sm flex items-center gap-2 border border-gray-300 rounded-full md:max-xl:p-2 md:max-xl:text-xs"
+      >
+        <span>ICON</span>Filters
+      </button>
+      <button
+        class="px-4 py-3 text-sm flex items-center gap-2 border border-gray-300 rounded-full md:max-xl:p-2 md:max-xl:text-xs"
+      >
+        <span>ICON</span>Export
+      </button>
+      <button
+        class="px-4 py-3 text-sm flex items-center gap-2 border border-gray-300 rounded-full md:max-xl:p-2 md:max-xl:text-xs"
+      >
+        <span class="md:max-xl:hidden">ICON</span>This Month
+      </button>
+    </div>
+  </div>
+  <table>
+    <tr
+      class="flex p-4 mt-2 rounded-xl bg-blue-100 text-blue-700 md:max-xl:text-xs"
+    >
+      <th class="w-1/5 font-medium text-left">Order ID</th>
+      <th class="w-1/5 font-medium text-left">Customer Name</th>
+      <th class="w-1/5 font-medium text-left">Order Date</th>
+      <th class="w-1/5 font-medium text-left">Product Ordered</th>
+      <th class="w-1/5 font-medium text-left">Total Amount</th>
+      <th class="w-1/5 font-medium text-left">Payment Status</th>
+      <th class="w-1/5 font-medium text-left">Order Status</th>
+      <th class="w-1/5 font-medium text-left">Action</th>
+    </tr>
+    <tr class="flex p-4 text-sm md:max-xl:text-xs">
+      <td class="w-1/8 text-left">#ORD234</td>
+      <td class="w-1/8 text-left">Atorvastatin</td>
+      <td class="w-1/8 text-left">17 Units</td>
+      <td class="w-1/8 text-left">$19.00</td>
+      <td class="w-1/8 text-left">19-08-2025</td>
+      <td class="w-1/8 text-left">
+        <span
+          class="px-4 rounded-full bg-green-100 text-green-500 md:max-xl:px-1"
+          >In Stock</span
+        >
+      </td>
+      <td class="w-1/8 text-left">
+        <span
+          class="px-4 rounded-full bg-green-100 text-green-500 md:max-xl:px-1"
+          >In Stock</span
+        >
+      </td>
+      <td class="w-1/8 text-left md:max-xl:text-xs">
+        <span>ICON</span>
+        <span>ICON</span>
+        <span>ICON</span>
+      </td>
+    </tr>
+    <tr class="flex p-4 text-sm md:max-xl:text-xs">
+      <td class="w-1/8 text-left">#ORD234</td>
+      <td class="w-1/8 text-left">Atorvastatin</td>
+      <td class="w-1/8 text-left">17 Units</td>
+      <td class="w-1/8 text-left">$19.00</td>
+      <td class="w-1/8 text-left">19-08-2025</td>
+      <td class="w-1/8 text-left">
+        <span
+          class="px-4 rounded-full bg-green-100 text-green-500 md:max-xl:px-1"
+          >In Stock</span
+        >
+      </td>
+      <td class="w-1/8 text-left">
+        <span
+          class="px-4 rounded-full bg-green-100 text-green-500 md:max-xl:px-1"
+          >In Stock</span
+        >
+      </td>
+      <td class="w-1/8 text-left md:max-xl:text-xs">
+        <span>ICON</span>
+        <span>ICON</span>
+        <span>ICON</span>
+      </td>
+    </tr>
+    <tr class="flex p-4 text-sm md:max-xl:text-xs">
+      <td class="w-1/8 text-left">#ORD234</td>
+      <td class="w-1/8 text-left">Atorvastatin</td>
+      <td class="w-1/8 text-left">17 Units</td>
+      <td class="w-1/8 text-left">$19.00</td>
+      <td class="w-1/8 text-left">19-08-2025</td>
+      <td class="w-1/8 text-left">
+        <span
+          class="px-4 rounded-full bg-green-100 text-green-500 md:max-xl:px-1"
+          >In Stock</span
+        >
+      </td>
+      <td class="w-1/8 text-left">
+        <span
+          class="px-4 rounded-full bg-green-100 text-green-500 md:max-xl:px-1"
+          >In Stock</span
+        >
+      </td>
+      <td class="w-1/8 text-left md:max-xl:text-xs">
+        <span>ICON</span>
+        <span>ICON</span>
+        <span>ICON</span>
+      </td>
+    </tr>
+    <tr class="flex p-4 text-sm md:max-xl:text-xs">
+      <td class="w-1/8 text-left">#ORD234</td>
+      <td class="w-1/8 text-left">Atorvastatin</td>
+      <td class="w-1/8 text-left">17 Units</td>
+      <td class="w-1/8 text-left">$19.00</td>
+      <td class="w-1/8 text-left">19-08-2025</td>
+      <td class="w-1/8 text-left">
+        <span
+          class="px-4 rounded-full bg-green-100 text-green-500 md:max-xl:px-1"
+          >In Stock</span
+        >
+      </td>
+      <td class="w-1/8 text-left">
+        <span
+          class="px-4 rounded-full bg-green-100 text-green-500 md:max-xl:px-1"
+          >In Stock</span
+        >
+      </td>
+      <td class="w-1/8 text-left md:max-xl:text-xs">
+        <span>ICON</span>
+        <span>ICON</span>
+        <span>ICON</span>
+      </td>
+    </tr>
+    <tr class="flex p-4 text-sm md:max-xl:text-xs">
+      <td class="w-1/8 text-left">#ORD234</td>
+      <td class="w-1/8 text-left">Atorvastatin</td>
+      <td class="w-1/8 text-left">17 Units</td>
+      <td class="w-1/8 text-left">$19.00</td>
+      <td class="w-1/8 text-left">19-08-2025</td>
+      <td class="w-1/8 text-left">
+        <span
+          class="px-4 rounded-full bg-green-100 text-green-500 md:max-xl:px-1"
+          >In Stock</span
+        >
+      </td>
+      <td class="w-1/8 text-left">
+        <span
+          class="px-4 rounded-full bg-green-100 text-green-500 md:max-xl:px-1"
+          >In Stock</span
+        >
+      </td>
+      <td class="w-1/8 text-left md:max-xl:text-xs">
+        <span>ICON</span>
+        <span>ICON</span>
+        <span>ICON</span>
+      </td>
+    </tr>
+    <tr class="flex p-4 text-sm md:max-xl:text-xs">
+      <td class="w-1/8 text-left">#ORD234</td>
+      <td class="w-1/8 text-left">Atorvastatin</td>
+      <td class="w-1/8 text-left">17 Units</td>
+      <td class="w-1/8 text-left">$19.00</td>
+      <td class="w-1/8 text-left">19-08-2025</td>
+      <td class="w-1/8 text-left">
+        <span
+          class="px-4 rounded-full bg-green-100 text-green-500 md:max-xl:px-1"
+          >In Stock</span
+        >
+      </td>
+      <td class="w-1/8 text-left">
+        <span
+          class="px-4 rounded-full bg-green-100 text-green-500 md:max-xl:px-1"
+          >In Stock</span
+        >
+      </td>
+      <td class="w-1/8 text-left md:max-xl:text-xs">
+        <span>ICON</span>
+        <span>ICON</span>
+        <span>ICON</span>
+      </td>
+    </tr>
+    <tr class="flex p-4 text-sm md:max-xl:text-xs">
+      <td class="w-1/8 text-left">#ORD234</td>
+      <td class="w-1/8 text-left">Atorvastatin</td>
+      <td class="w-1/8 text-left">17 Units</td>
+      <td class="w-1/8 text-left">$19.00</td>
+      <td class="w-1/8 text-left">19-08-2025</td>
+      <td class="w-1/8 text-left">
+        <span
+          class="px-4 rounded-full bg-green-100 text-green-500 md:max-xl:px-1"
+          >In Stock</span
+        >
+      </td>
+      <td class="w-1/8 text-left">
+        <span
+          class="px-4 rounded-full bg-green-100 text-green-500 md:max-xl:px-1"
+          >In Stock</span
+        >
+      </td>
+      <td class="w-1/8 text-left md:max-xl:text-xs">
+        <span>ICON</span>
+        <span>ICON</span>
+        <span>ICON</span>
+      </td>
+    </tr>
+    <tr class="flex p-4 text-sm md:max-xl:text-xs">
+      <td class="w-1/8 text-left">#ORD234</td>
+      <td class="w-1/8 text-left">Atorvastatin</td>
+      <td class="w-1/8 text-left">17 Units</td>
+      <td class="w-1/8 text-left">$19.00</td>
+      <td class="w-1/8 text-left">19-08-2025</td>
+      <td class="w-1/8 text-left">
+        <span
+          class="px-4 rounded-full bg-green-100 text-green-500 md:max-xl:px-1"
+          >In Stock</span
+        >
+      </td>
+      <td class="w-1/8 text-left">
+        <span
+          class="px-4 rounded-full bg-green-100 text-green-500 md:max-xl:px-1"
+          >In Stock</span
+        >
+      </td>
+      <td class="w-1/8 text-left md:max-xl:text-xs">
+        <span>ICON</span>
+        <span>ICON</span>
+        <span>ICON</span>
+      </td>
+    </tr>
+    <tr class="flex p-4 text-sm md:max-xl:text-xs">
+      <td class="w-1/8 text-left">#ORD234</td>
+      <td class="w-1/8 text-left">Atorvastatin</td>
+      <td class="w-1/8 text-left">17 Units</td>
+      <td class="w-1/8 text-left">$19.00</td>
+      <td class="w-1/8 text-left">19-08-2025</td>
+      <td class="w-1/8 text-left">
+        <span
+          class="px-4 rounded-full bg-green-100 text-green-500 md:max-xl:px-1"
+          >In Stock</span
+        >
+      </td>
+      <td class="w-1/8 text-left">
+        <span
+          class="px-4 rounded-full bg-green-100 text-green-500 md:max-xl:px-1"
+          >In Stock</span
+        >
+      </td>
+      <td class="w-1/8 text-left md:max-xl:text-xs">
+        <i class="fa-regular fa-eye px-2"></i>
+        <i class="fa-solid fa-circle-minus px-2"></i>
+        <i class="fa-solid fa-file-export px-2"></i>
+      </td>
+    </tr>
+  </table>
+  <div class="flex items-center justify-between">
+    <div class="flex items-center gap-2">
+      <p class="text-sm text-gray-400 md:max-xl:text-xs">Showing</p>
+      <select class="bg-blue-50 text-blue-500 p-2 rounded-xl">
+        <option value="4">4</option>
+      </select>
+      <p class="text-sm text-gray-400 md:max-xl:text-xs">out of 100</p>
+    </div>
+    <nav class="flex items-center gap-1 md:max-xl:text-xs">
+      <button
+        class="py-2 px-5 rounded-xl bg-blue-950 text-white md:max-xl:px-4"
+      >
+        1
+      </button>
+      <button
+        class="py-2 px-5 rounded-xl bg-blue-50 text-blue-500 md:max-xl:px-4"
+      >
+        2
+      </button>
+      <button
+        class="py-2 px-5 rounded-xl bg-blue-50 text-blue-500 md:max-xl:px-4"
+      >
+        3
+      </button>
+      <button class="py-2 px-5 rounded-xl text-blue-500 md:max-xl:px-4">
+        ...
+      </button>
+      <button
+        class="py-2 px-5 rounded-xl bg-blue-50 text-blue-500 md:max-xl:px-4"
+      >
+        10
+      </button>
+    </nav>
+  </div>
+</section>
